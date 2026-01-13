@@ -78,8 +78,12 @@ print(fruits)
 #Tuples-> A tuple is like a list but:Ordered Unchangeable (immutable)
 #Syntax->tuple_name = (value1, value2)
 #Example-> Coordinates on a map (fixed values)
-location = (28.61, 77.20)
+location = (28.61, 77.30)
 print(location)
+
+#  trying to change tuple-> location = (28.61, 77.30)
+#location[0] = 29.00
+# throws error->TypeError: 'tuple' object does not support item assignment
 
 # Sets->A set stores unique values only.Unordered ,No duplicates
 #Syntax ->set_name = {value1, value2}
